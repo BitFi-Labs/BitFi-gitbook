@@ -1,24 +1,20 @@
 # bfUSD
 
-> bfUSD lets stablecoin holders switch from passive backing to interest-bearing exposure with transparent buffers and layered yield strategies.
+> bfUSD is BitFi's yield-bearing stablecoin backed by USDT and USDC.
 
-## Multi-token Deposits
+## Overview
 
-bfUSD is minted on Ethereum when users deposit USDT or USDC into BitFi's stablecoin engine. Chainlink price feeds keep conversions fair, and the protocol routes the minted bfUSD into liquidity pools that mirror traditional stablecoin desks but with stronger accountability.
+bfUSD is minted on Ethereum by depositing USDT or USDC into BitFi's stablecoin contracts. Pricing is secured by Chainlink oracles, and the resulting bfUSD token is an ERC-20 asset that can move between BitFi and external DeFi protocols.
 
-## Dual Pool Strategy
+## Horizon and Pulsar
 
-Two isolated ERC-4626 pools provide differentiated strategy exposure:
+bfUSD supports two ERC-4626 vaults with different risk profiles:
 
-* **Horizon (hbfUSD)** is a low-risk, delta-neutral vault with a steadily increasing ratio and a capped supply of 100 million shares.
-* **Pulsar (pbfUSD)** is a higher-yield vault capped at 2 million shares that accepts more aggressive market tilts; its boosted reward stream comes partly from Horizon’s revenue, and its liquidity acts as insulation for Horizon when the low-risk pool faces drawdowns.
+* **Horizon (hbfUSD):** Low-risk, delta-neutral vault with a steadily increasing share price and a supply cap of 100 million shares.
+* **Pulsar (pbfUSD):** Higher-risk, higher-yield vault with a 2 million share cap that can experience drawdowns between epochs.
 
-The two pools cooperate like mutual insurers: Horizon feeds Pulsar extra yields when markets are benign, and Pulsar absorbs losses before Horizon is touched when volatility causes unexpected drawdowns.
+Horizon and Pulsar are linked by design: part of Horizon's revenue is used to boost Pulsar, and Pulsar's capital helps protect Horizon during stress events.
 
-## Integrated Insurance Buffer
+## Insurance and Integrations
 
-bfUSD maintains a dedicated buffer to absorb losses before user capital is affected. This component, combined with Pulsar’s principal support, creates a layered insurance mechanism that is visible on-chain and managed by the `BitFiStablecoinManager`.
-
-## Developer-Friendly Integrations
-
-Developers can interact with the full bfUSD stack via the verified ABIs (see the bfUSD documentation pack) for the ERC-20 token, the minters, the vaults, the zap helper, and the instant/standard redeemers. LayerZero helpers (`send`, `quoteSend`) allow cross-chain movements of bfUSD, hbfUSD, and pbfUSD with transparent `crossChainFee()` reporting.
+A protocol buffer, together with Pulsar's capital, is used to absorb losses before they impact Horizon depositors. All contracts are available via verified ABIs, and LayerZero helpers (send, quoteSend) support cross-chain transfers of bfUSD, hbfUSD, and pbfUSD.

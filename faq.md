@@ -16,6 +16,36 @@ BitFi partners with Ceffu to custody user-deposited Bitcoin. Under multi-party s
 
 
 
+## **What is bfUSD?**
+
+bfUSD (BitFi USD) is BitFi's yield-bearing stablecoin, minted against USDT or USDC. Holders can keep bfUSD as a transferable ERC-20 asset or stake it into Horizon (hbfUSD) and Pulsar (pbfUSD) vaults to share protocol yields.
+
+
+
+## **How does bfUSD work?**
+
+When users deposit USDT or USDC into BitFi's bfUSD contracts, the assets are managed under BitFi's CeDeFi framework and priced via Chainlink oracles. The protocol periodically updates vault ratios so Horizon and Pulsar shares reflect accumulated returns, while bfUSD itself can be redeemed back to USDT through standard or instant redeemers.
+
+
+
+## **How can I stake stablecoins on Ethereum?**
+
+On Ethereum, connect your wallet on the bfUSD page, approve USDT or USDC, and deposit into the bfUSD minter. You can either mint bfUSD first and then stake into Horizon/Pulsar, or use the zap flow to go from USDT/USDC directly into hbfUSD or pbfUSD in one transaction.
+
+
+
+## **How can I unstake to bfUSD on Ethereum?**
+
+To exit a vault position, connect your wallet on the bfUSD page and choose Horizon or Pulsar. Use the unstake flow to request a withdrawal; after the required epochs have passed, claim to receive bfUSD back into your wallet. No protocol fee is charged for this step, only the epoch delay applies.
+
+
+
+## **How can I redeem to USDT on Ethereum?**
+
+With bfUSD in your wallet, use the redeem interface to select either standard redemption (3-epoch wait, no fee) or instant redemption (0.5% fee, quota-based). Standard redemptions settle after the waiting period, while instant redemptions burn bfUSD and immediately send USDT to your address, subject to available quota.
+
+
+
 ## **How can I stake on Bitcoin Network?**
 
 For Bitcoin network stakes, start by connecting your Bitcoin wallet. Next, select your desired receiving network and connect your EVM wallet to complete the stake. Please note that Bitcoin network stakes require 6 block confirmations (about 1 hour) before bfBTC is sent to your EVM wallet.
@@ -48,7 +78,7 @@ bfBTC's ratio(exchange rate) changes with each Epoch. Since unstake require proc
 
 ## **What is Epoch & Ratio?**
 
-An Epoch is the minimum timeframe between bfBTC exchange rate updates, which is currently 24 hours. The bfBTC ratio updates with each new Epoch. The Ratio indicates how much BTC you can receive for 1 bfBTC during the current Epoch.
+An Epoch is the minimum timeframe between exchange rate updates. For bfBTC, the ratio is updated each Epoch to reflect BTC strategy performance; the Ratio indicates how much BTC you can receive for 1 bfBTC in that Epoch. For bfUSD, Horizon and Pulsar vault ratios are also updated on an epoch basis, defining how many bfUSD each share is worth when staking or unstaking.
 
 
 
@@ -60,10 +90,9 @@ Estimated rewards are calculated based on the ratio difference between your depo
 
 ## What is the Fee?
 
-BitFi charges a fee when users make unstake. The fee is mainly used to cover the cost of processing unstake. Currently, the BitFi fees are as follows:
+For bfBTC, BitFi charges small fixed fees on unstake operations to cover processing costs (for example, native withdraw to Bitcoin or EVM withdraw). Refer to the bfBTC fee table in the developer docs for current values.
 
-* **Native Withdraw (Unstake to Bitcoin Network):** 0.000012 bfBTC
-* **EVM Withdraw (Unstake to EVM Network):** 0.000006 bfBTC
+For bfUSD, unstaking from Horizon or Pulsar back to bfUSD does not incur protocol fees; fees only apply when redeeming bfUSD back into USDT. Standard redemption has no fee but includes a waiting period, while instant redemption charges a 0.5% fee and is limited by a quota.
 
 
 

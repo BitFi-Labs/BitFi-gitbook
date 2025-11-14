@@ -4,7 +4,7 @@ icon: octagon-xmark
 
 # Current Market Challenges
 
-# BTC Market Challenges
+## BTC Market Challenges
 
 BTC holders face significant liquidity limitations. Unlike the more mature Ethereum ecosystem, the Bitcoin ecosystem lacks robust savings, lending, and trading infrastructure, hindering optimal capital utilization. Simply holding BTC for appreciation limits asset flexibility, preventing users from accessing liquidity while maintaining BTC exposure. Current challenges for BTC holders seeking additional yield include:
 
@@ -52,4 +52,4 @@ The broader stablecoin market still faces structural risks that discourage long-
 
 Consequently, stablecoin holders often feel they must either accept low, passive returns or relinquish control to opaque strategies with no locality for losses.
 
-To address these USD challenges, BitFi's CeDeFi solution layers a protocol-level insurance buffer over the pools and treats the Horizon and Pulsar vaults as insurance-backed strategy pods: the buffer caps losses before user capital is affected, while Horizon remains the stable, delta-neutral strategy and Pulsar pursues more aggressive returns with the understanding that it will absorb drawdowns before Horizon is touched.
+To address these USD challenges, BitFi applies the same CeDeFi approach to stablecoins, combining a protocol-level buffer with an insurance-style relationship between Horizon and Pulsar. Horizon (hbfUSD) is positioned as the conservative, delta-neutral vault, while Pulsar (pbfUSD) runs more aggressive strategies and, together with the buffer, takes on losses first so Horizon can prioritize capital stability.

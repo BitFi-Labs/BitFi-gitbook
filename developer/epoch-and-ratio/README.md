@@ -6,7 +6,7 @@ icon: arrow-progress
 
 BitFi uses epochs as price update intervals.&#x20;
 
-At the end of each epoch, BitFi updates the exchange rates for bfBTC - BTC and bfUSD - Underlying Assets.
+At the end of each epoch, BitFi updates the exchange rates for bfBTC - BTC and pbfUSD or hbfUSD - bfUSD.
 
 {% content-ref url="epoch-updates.md" %}
 [epoch-updates.md](epoch-updates.md)

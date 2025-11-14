@@ -34,6 +34,10 @@ Learn how to interact with BitFi's contracts.
 [unstake-bfusd.md](unstake-bfusd.md)
 {% endcontent-ref %}
 
+{% content-ref url="redeem-bfusd.md" %}
+[redeem-bfusd.md](redeem-bfusd.md)
+{% endcontent-ref %}
+
 {% content-ref url="bfusd-fees.md" %}
 [bfusd-fees.md](bfusd-fees.md)
 {% endcontent-ref %}

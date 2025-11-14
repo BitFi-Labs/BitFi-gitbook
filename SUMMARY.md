@@ -51,6 +51,7 @@
   * [bfBTC Price Oracle](developer/using-contract/bfbtc-price-oracle.md)
   * [Stake bfUSD](developer/using-contract/stake-bfusd.md)
   * [Unstake bfUSD](developer/using-contract/unstake-bfusd.md)
+  * [Redeem bfUSD](developer/using-contract/redeem-bfusd.md)
   * [bfUSD Fees](developer/using-contract/bfusd-fees.md)
   * [bfUSD Oracle](developer/using-contract/bfusd-oracle.md)
 * [Epoch and Ratio](developer/epoch-and-ratio/README.md)
