@@ -40,3 +40,20 @@ Current Bitcoin-ecosystem projects face numerous security challenges:
   A lack of professional asset custody and robust risk management systems exposes users to significant security vulnerabilities.
 
 To address these challenges in the Bitcoin landscape, BitFi offers a secure and reliable native BTC yield solution through its innovative CeDeFi approach.
+
+## Stablecoin Market Challenges
+
+The broader stablecoin market still faces structural risks that discourage long-term deposits:
+
+* **Limited insurance or loss protection:** Most stablecoin vaults do not build dedicated reserves, leaving the principal exposed to protocol failures, liquidity drains, or de-pegging events.
+* **No user-directed strategy choices:** Single-strategy pools force users to accept a fixed approach, so they cannot choose between steady, neutral exposure or a higher-yield, more aggressive angle (especially when the team does not disclose how returns are generated).
+
+Consequently, stablecoin holders often feel they must either accept low, passive returns or relinquish control to opaque strategies with no locality for losses.
+
+## How bfUSD Helps
+
+bfUSD introduces structural protections and strategic variety:
+
+1. **Protocol buffers to cap losses:** A designated buffer vault sits above the pools, absorbing drawdowns before user capital is affected while keeping reserves transparent and auditable.
+2. **Isolated yield pools with mutual insurance:** The Horizon (hbfUSD) and Pulsar (pbfUSD) pools operate separately, letting Horizon stay in a stable, delta-neutral posture while Pulsar pursues a more aggressive return profile. During normal times, Pulsar receives boosted distributions from Horizon revenue; when Horizon experiences a drawdown, Pulsar’s principal covers the gap, acting like an insurance backstop.
+3. **Divergent strategy preferences:** Horizon favors a conservative, neutral strategy that keeps the ratio stable, while Pulsar targets higher yields even if the ratio can temporarily retreat. Users pick the pool that matches their desired risk/reward trade-off.

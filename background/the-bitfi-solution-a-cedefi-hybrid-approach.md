@@ -10,7 +10,7 @@ We recognize that while funding rate arbitrage can provide stable returns, it re
 
 This ensures ample market depth while significantly reducing platform risk and providing users with direct access to arbitrage strategies. By combining the strengths of CeFi and DeFi, BitFi creates a multi-chain yield platform for Bitcoin holders.&#x20;
 
-Currently, we support deposit and withdrawal of BTC assets across major blockchains including Bitcoin, Ethereum, and Binance Smart Chain. We plan to expand support to additional Bitcoin-compatible blockchains in the future.
+Currently, we support deposit and withdrawal of BTC assets across major blockchains including Bitcoin, Ethereum, and Binance Smart Chain. We also accept ETH-network deposits of USDT and USDC so users can mint bfUSD directly from those stablecoins, and we plan to expand support to additional Bitcoin-compatible blockchains in the future.
 
 ## Liquidity Solutions with bfBTC and bfUSD
 
