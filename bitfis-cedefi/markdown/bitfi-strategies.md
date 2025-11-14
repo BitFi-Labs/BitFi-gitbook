@@ -1,7 +1,10 @@
 # BitFi Strategies
 
-BitFi partners with several professional quantitative teams, employing a stable delta-neutral strategy to generate consistent returns.\
-BitFi utilizes a sophisticated delta-neutral strategy to generate consistent BTC yield for users. Unlike traditional investment approaches susceptible to market volatility, our strategy minimizes price fluctuation exposure while maximizing returns. This is achieved through a dynamically adjusted portfolio maintaining a net delta of zero.\
+BitFi partners with several professional quantitative teams, employing a stable delta-neutral strategy to generate consistent returns.
+
+BitFi utilizes a sophisticated delta-neutral strategy to generate consistent BTC yield for users. Unlike traditional investment approaches susceptible to market volatility, our strategy minimizes price fluctuation exposure while maximizing returns. This is achieved through a dynamically adjusted portfolio maintaining a net delta of zero.
+
+We apply the same risk-aware mindset to our USD products: Horizon (hbfUSD) follows a conservative, delta-neutral path while Pulsar (pbfUSD) takes a more aggressive approach, accepting potential drawdowns for higher upside. The two pools operate like a paired insurance structure—Horizon channels incremental revenue to Pulsar, and Pulsar absorbs losses before Horizon is impacted.
 
 
 ## **Core Strategy Components:**

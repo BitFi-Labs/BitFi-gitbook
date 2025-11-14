@@ -1,6 +1,6 @@
 # Risk Management
 
-BitFi prioritizes the security and stability of user assets. Our risk management framework focuses on:\
+BitFi prioritizes the security and stability of user assets. Our risk management framework focuses on:
 
 
 * **Minimizing Smart Contract Risk:** Through rigorous audits and security best practices.

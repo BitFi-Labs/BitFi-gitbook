@@ -1,5 +1,7 @@
 # Epoch Updates
 
+## bfBTC Epoch Updates
+
 Epoch updates are triggered when:
 
 * The value of open positions changes beyond a predefined threshold.
@@ -11,6 +13,11 @@ After the update, all deposit and withdrawal transactions use the latest epoch's
 
 Due to performance differences between Binance Smart Chain and Ethereum, Ethereum epoch updates might lag behind BSC updates. The delay typically does not exceed one minute.
 
-## **Note**
+## bfUSD Epoch Updates
 
-Calling the contract's `currentEpoch` function returns the latest epoch, but this epoch does not yet have a `Ratio`. `updateEpoch` updates the `Ratio` for that epoch.
+The same epoch mechanism is used for bfUSD on Ethereum. When `updateEpoch` is called for the bfUSD manager contract, it refreshes the ratios for both Horizon (hbfUSD) and Pulsar (pbfUSD) vaults and settles pending withdrawals based on the updated ratios.
+
+After a bfUSD epoch update:
+
+* `currentRatio` and `epochRatios` for hbfUSD and pbfUSD reflect the new exchange rate between shares and bfUSD.
+* Unstake & standard redemption requests that have reached their claimable epoch can be processed, allowing users to claim bfUSD at the proposed epoch ratio or claim USDT.
