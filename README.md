@@ -1,6 +1,6 @@
 ---
 icon: bitcoin-sign
-cover: .gitbook/assets/推文结束图.png
+cover: .gitbook/assets/BannerPic.png
 coverY: 0
 ---
 
