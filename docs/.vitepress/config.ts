@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress';
 const sidebar = [
   {
     text: 'OVERVIEW',
-    collapsed: false,
     items: [
       { text: 'Welcome to BitFi', link: '/' },
       { text: 'CeDeFi Innovation', link: '/readme/cedefi-innovation' },
@@ -13,7 +12,6 @@ const sidebar = [
   },
   {
     text: 'BACKGROUND',
-    collapsed: false,
     items: [
       { text: 'Current Bitcoin Market Challenges', link: '/background/quickstart' },
       { text: 'The BitFi Solution: A CeDeFi Hybrid Approach', link: '/background/the-bitfi-solution-a-cedefi-hybrid-approach' }
@@ -21,12 +19,12 @@ const sidebar = [
   },
   {
     text: "BITFI'S CEDEFI",
-    collapsed: false,
     items: [
       { text: 'Integration with CeFi and DeFi', link: '/bitfis-cedefi/editor' },
       {
         text: 'Implementation of CeFi',
         link: '/bitfis-cedefi/markdown/',
+        collapsed: true,
         items: [
           { text: 'Ceffu MirrorX', link: '/bitfis-cedefi/markdown/ceffu-mirrorx' },
           { text: 'BitFi Strategies', link: '/bitfis-cedefi/markdown/bitfi-strategies' },
@@ -36,6 +34,7 @@ const sidebar = [
       {
         text: 'Implementation of DeFi',
         link: '/bitfis-cedefi/images-and-media/',
+        collapsed: true,
         items: [
           { text: 'bfBTC', link: '/bitfis-cedefi/images-and-media/bfbtc' },
           { text: 'bfUSD', link: '/bitfis-cedefi/images-and-media/bfusd' }
@@ -45,7 +44,6 @@ const sidebar = [
   },
   {
     text: 'HOW TO',
-    collapsed: false,
     items: [
       { text: 'Introduction', link: '/how-to/introduction' },
       { text: 'How to participate in Points Campaign', link: '/how-to/how-to-participate-in-points-campaign' },
@@ -60,7 +58,6 @@ const sidebar = [
   },
   {
     text: 'POINTS PROGRAM',
-    collapsed: false,
     items: [
       { text: 'Overview', link: '/points-program/overview' },
       { text: 'Points Categories & Rules', link: '/points-program/points-details' }
@@ -68,11 +65,11 @@ const sidebar = [
   },
   {
     text: 'DEVELOPER',
-    collapsed: false,
     items: [
       {
         text: 'bfBTC Overview',
         link: '/developer/bfbtc-overview/',
+        collapsed: true,
         items: [
           { text: 'Deployed Contracts', link: '/developer/bfbtc-overview/deployed-contracts' },
           { text: 'Contract Parameters', link: '/developer/bfbtc-overview/contract-parameters' },
@@ -82,6 +79,7 @@ const sidebar = [
       {
         text: 'bfUSD Overview',
         link: '/developer/bfusd-overview/',
+        collapsed: true,
         items: [
           { text: 'Deployed Contracts', link: '/developer/bfusd-overview/deployed-contracts' },
           { text: 'Contract Parameters', link: '/developer/bfusd-overview/contract-parameters' },
@@ -91,6 +89,7 @@ const sidebar = [
       {
         text: 'Using Contract',
         link: '/developer/using-contract/',
+        collapsed: true,
         items: [
           { text: 'Stake bfBTC', link: '/developer/using-contract/stake-bfbtc' },
           { text: 'Unstake bfBTC', link: '/developer/using-contract/unstake-bfbtc' },
@@ -106,6 +105,7 @@ const sidebar = [
       {
         text: 'Epoch and Ratio',
         link: '/developer/epoch-and-ratio/',
+        collapsed: true,
         items: [
           { text: 'Epoch Updates', link: '/developer/epoch-and-ratio/epoch-updates' },
           { text: 'bfUSD Epoch Vesting', link: '/developer/epoch-and-ratio/bfusd-epoch-vesting' },
@@ -118,7 +118,6 @@ const sidebar = [
   },
   {
     text: 'RESOURCE',
-    collapsed: false,
     items: [
       { text: 'Communities', link: '/resource/communities' },
       { text: 'Brand Assets', link: '/resource/brand-assets' },
