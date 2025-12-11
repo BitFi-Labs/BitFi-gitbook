@@ -141,7 +141,10 @@ export default defineConfig({
     math: true
   },
   themeConfig: {
-    logo: '/logo-bitfi.svg',
+    logo: {
+      light: '/logo-bitfi.svg',
+      dark: '/logo-bitfi-dark.svg'
+    },
     nav: [
       { text: 'Docs', link: '/' },
       { text: 'Home', link: 'https://www.bitfi.one/' },
