@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --vp-font-family-base: 'Manrope', 'Segoe UI', 'Noto Sans', sans-serif;
+  --vp-font-family-base: 'Poppins', 'Segoe UI', 'Noto Sans', sans-serif;
   --vp-font-family-mono: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   --vp-c-brand-1: #0a6b5b;
@@ -92,6 +92,8 @@ body {
 
 .VPSidebar .VPNavLink, .VPSidebar .link {
   border-radius: 10px;
+  font-weight: 300;
+  color: var(--vp-c-text-2);
 }
 
 .VPSidebar .VPNavLink:hover, .VPSidebar .link:hover {
