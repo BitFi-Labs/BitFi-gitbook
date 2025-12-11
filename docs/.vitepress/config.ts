@@ -5,9 +5,9 @@ const sidebar = [
     text: 'OVERVIEW',
     items: [
       { text: 'Welcome to BitFi', link: '/' },
-      { text: 'CeDeFi Innovation', link: '/readme/cedefi-innovation' },
-      { text: 'Addressing Market Challenges', link: '/readme/addressing-market-challenges' },
-      { text: 'FAQ', link: '/faq' }
+      { text: 'CeDeFi Innovation', link: '/overview/cedefi-innovation' },
+      { text: 'Addressing Market Challenges', link: '/overview/addressing-market-challenges' },
+      { text: 'FAQ', link: '/overview/faq' }
     ]
   },
   {
@@ -20,24 +20,24 @@ const sidebar = [
   {
     text: "BITFI'S CEDEFI",
     items: [
-      { text: 'Integration with CeFi and DeFi', link: '/bitfis-cedefi/editor' },
+      { text: 'Integration with CeFi and DeFi', link: '/bitfis-cedefi/intro' },
       {
         text: 'Implementation of CeFi',
-        link: '/bitfis-cedefi/markdown/',
+        link: '/bitfis-cedefi/cefi/',
         collapsed: true,
         items: [
-          { text: 'Ceffu MirrorX', link: '/bitfis-cedefi/markdown/ceffu-mirrorx' },
-          { text: 'BitFi Strategies', link: '/bitfis-cedefi/markdown/bitfi-strategies' },
-          { text: 'Risk Management', link: '/bitfis-cedefi/markdown/risk-management' }
+          { text: 'Ceffu MirrorX', link: '/bitfis-cedefi/cefi/ceffu-mirrorx' },
+          { text: 'BitFi Strategies', link: '/bitfis-cedefi/cefi/bitfi-strategies' },
+          { text: 'Risk Management', link: '/bitfis-cedefi/cefi/risk-management' }
         ]
       },
       {
         text: 'Implementation of DeFi',
-        link: '/bitfis-cedefi/images-and-media/',
+        link: '/bitfis-cedefi/defi/',
         collapsed: true,
         items: [
-          { text: 'bfBTC', link: '/bitfis-cedefi/images-and-media/bfbtc' },
-          { text: 'bfUSD', link: '/bitfis-cedefi/images-and-media/bfusd' }
+          { text: 'bfBTC', link: '/bitfis-cedefi/defi/bfbtc' },
+          { text: 'bfUSD', link: '/bitfis-cedefi/defi/bfusd' }
         ]
       }
     ]
