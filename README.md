@@ -23,14 +23,14 @@ yarn preview
 
 ## Useful paths
 
-- `docs/` — all docs content. Entry point is `docs/index.md`.
-- `docs/.vitepress/config.ts` — site config, nav, theme settings.
-- `docs/.vitepress/theme/` — custom styles/components.
-- `readme/overview.md` — product overview (previous root README copy).
+- `docs/`: all docs content. Entry point is `docs/index.md`.
+- `docs/.vitepress/config.ts`: site config, nav, theme settings.
+- `docs/.vitepress/theme/`: custom styles/components.
+- `docs/public/`: static assets served at the site root.
 
 ## Writing content
 
-- Author pages in Markdown under `docs/`, keeping existing folder structure (`background/`, `how-to/`, etc.).
+- Author pages in Markdown under `docs/`, keeping the existing folder structure (`background/`, `how-to/`, etc.).
 - Use relative asset paths (place images in `docs/public/` or alongside the page).
 - For math, `markdown-it-mathjax3` is available; wrap expressions with `$...$` or `$$...$$`.
 - Embed guides (Scribe/Tango) with a responsive wrapper so iframes scale on mobile:
@@ -57,9 +57,9 @@ yarn preview
 
 ## Scripts
 
-- `yarn dev` — local dev server at `localhost:5173` (default VitePress port).
-- `yarn build` — generate static site in `docs/.vitepress/dist`.
-- `yarn preview` — serve the built output locally.
+- `yarn dev`: local dev server at `localhost:5173` (default VitePress port).
+- `yarn build`: generate static site in `docs/.vitepress/dist`.
+- `yarn preview`: serve the built output locally.
 
 ## Contributing
 
