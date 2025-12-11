@@ -9,13 +9,26 @@
   --vp-c-brand-3: #D8EEB5; /* Brand deep shade */
 
   --vp-c-bg: #FFFFFF; /* Page background */
-  --vp-c-bg-soft: #E1F8CD; /* Soft background (panels/sections) */
+  --vp-c-bg-soft: #F0F0F0; /* Soft background (panels/sections) */
   --vp-c-bg-alt: #FFFFFF; /* Card / navbar background */
   --vp-c-text-1: #000000; /* Primary text */
   --vp-c-text-2: #555; /* Secondary text */
   --vp-c-divider: #F0F0F0; /* Lines/dividers */
 
   --vp-nav-height: 64px; /* Top nav height */
+}
+
+.dark {
+  --vp-c-brand-1: #48c1b0; /* Primary brand / buttons / active (lightened for dark) */
+  --vp-c-brand-2: #64d5c4; /* Brand hover */
+  --vp-c-brand-3: #d8eeb5; /* Accent */
+
+  --vp-c-bg: #0f1614; /* Page background */
+  --vp-c-bg-soft: #121c19; /* Soft background */
+  --vp-c-bg-alt: #121c19; /* Cards / navbar background */
+  --vp-c-text-1: #eaf0ed; /* Primary text */
+  --vp-c-text-2: #c3cec8; /* Secondary text */
+  --vp-c-divider: #22332e; /* Lines/dividers */
 }
 
 body {
@@ -47,7 +60,7 @@ body {
 .VPNavBarMenu .VPNavBarMenuLink[href="/points-program/overview"] {
   background: var(--vp-c-brand-1);
   color: #ffffff;
-  box-shadow: 0 8px 20px rgba(10, 107, 91, 0.18);
+  box-shadow: 0 8px 20px rgba(12, 47, 47, 0.24);
 }
 
 .VPNavBarMenu .VPNavBarMenuLink[href="/points-program/overview"]:hover {
@@ -57,7 +70,7 @@ body {
 .VPNavBarMenu .VPNavBarMenuLink[href="https://app.bitfi.one/"] {
   background: var(--vp-c-brand-1);
   color: #ffffff;
-  box-shadow: 0 8px 20px rgba(10, 107, 91, 0.18);
+  box-shadow: 0 8px 20px rgba(12, 47, 47, 0.24);
 }
 
 .VPNavBarMenu .VPNavBarMenuLink[href="https://app.bitfi.one/"]:hover {
@@ -73,6 +86,22 @@ body {
 
 .VPNavBarSearch .search-bar:hover {
   border-color: var(--vp-c-brand-1);
+}
+
+.dark .VPNavBar {
+  background: rgba(18, 28, 25, 0.9);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.dark .VPNavBarMenu .VPNavBarMenuLink[href="/points-program/overview"],
+.dark .VPNavBarMenu .VPNavBarMenuLink[href="https://app.bitfi.one/"] {
+  box-shadow: 0 10px 22px rgba(72, 193, 176, 0.24);
+}
+
+.dark .VPNavBarSearch .search-bar {
+  border: 1px solid #22332e;
+  background: #182420;
+  color: var(--vp-c-text-1);
 }
 
 .VPSidebar {
@@ -109,6 +138,28 @@ body {
   background: rgba(10, 107, 91, 0.12);
   color: var(--vp-c-brand-1);
   font-weight: 700;
+}
+
+.dark .VPSidebar {
+  background: var(--vp-c-bg);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.dark .VPSidebar .group .title {
+  color: #9fb3ad;
+}
+
+.dark .VPSidebar .VPNavLink, .dark .VPSidebar .link {
+  color: var(--vp-c-text-2);
+}
+
+.dark .VPSidebar .VPNavLink:hover, .dark .VPSidebar .link:hover {
+  background: rgba(72, 193, 176, 0.12);
+}
+
+.dark .VPSidebar .VPNavLink.active, .dark .VPSidebar .link.active {
+  background: rgba(72, 193, 176, 0.18);
+  color: var(--vp-c-brand-1);
 }
 
 .main > .layout {
@@ -203,6 +254,40 @@ body {
 .VPDocAside .outline .outline-link.active {
   color: var(--vp-c-brand-1);
   font-weight: 700;
+}
+
+.dark .hero-banner {
+  background: linear-gradient(90deg, rgba(16, 24, 21, 0.9), rgba(16, 24, 21, 0.9)), url('/banner.png') center / cover no-repeat;
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.35);
+}
+
+.dark .hero-kicker {
+  background: rgba(72, 193, 176, 0.12);
+  color: var(--vp-c-brand-1);
+}
+
+.dark .hero-title {
+  color: var(--vp-c-text-1);
+}
+
+.dark .hero-subtitle {
+  color: var(--vp-c-text-2);
+}
+
+.dark .vp-doc blockquote {
+  border-left-color: rgba(72, 193, 176, 0.6);
+  background: rgba(72, 193, 176, 0.08);
+}
+
+.dark .vp-doc .custom-card {
+  background: #182420;
+  border: 1px solid #22332e;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.dark .VPDocAside .outline {
+  background: rgba(72, 193, 176, 0.06);
+  border: 1px solid rgba(72, 193, 176, 0.2);
 }
 
 @media (max-width: 960px) {
