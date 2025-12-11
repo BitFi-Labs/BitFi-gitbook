@@ -106,5 +106,4 @@ BitFi Points are the reward points of BitFi's points program. Users can particip
 
 BitFi reports two APY metrics: a 7‑epoch rolling APY and a cumulative APY since genesis. The former reflects short‑term performance, while the latter captures long‑term performance. For details, please refer to this article: 
 
-See: [APY Calculation](developer/epoch-and-ratio/apy-calculation.md).
-
+See: [APY Calculation](/developer/epoch-and-ratio/apy-calculation).
