@@ -33,6 +33,27 @@ yarn preview
 - Author pages in Markdown under `docs/`, keeping existing folder structure (`background/`, `how-to/`, etc.).
 - Use relative asset paths (place images in `docs/public/` or alongside the page).
 - For math, `markdown-it-mathjax3` is available; wrap expressions with `$...$` or `$$...$$`.
+- Embed guides (Scribe/Tango) with a responsive wrapper so iframes scale on mobile:
+  ```md
+  <div style="position: relative; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 480px;">
+    <iframe
+      src="https://scribehow.com/embed/...your_id..."
+      style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;"
+      allow="fullscreen"
+    ></iframe>
+  </div>
+
+  [Open in a new tab](https://scribehow.com/viewer/...){target="_blank" rel="noreferrer"}
+  ```
+  Tango embeds use the same wrapper; add their sandbox/referrerpolicy when required:
+  ```md
+  <iframe
+    src="https://app.tango.us/app/embed/...your_id..."
+    sandbox="allow-scripts allow-top-navigation-by-user-activation allow-popups allow-same-origin"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen="allowfullscreen"
+  ></iframe>
+  ```
 
 ## Scripts
 
