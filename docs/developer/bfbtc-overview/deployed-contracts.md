@@ -30,6 +30,10 @@
 
 * bfBTC：0x623F2774d9f27B59bc6b954544487532CE79d9DF
 
+**TAC:**
+
+* bfBTC：0x623F2774d9f27B59bc6b954544487532CE79d9DF
+
 
 
 ## **Contract Addresses (Testnet):**
@@ -41,20 +45,11 @@
 * bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9 (Proxy)
 * WBTC Test Token: 0x05710e96a48AF222b564e6A222fF2f3d56725c32
 
-**Binance Smart Chain Testnet**
-
-* bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9 (Proxy)
-* BTCB Test Token: 0x05710e96a48AF222b564e6A222fF2f3d56725c32
-
 **Bitlayer Testnet**
 
 * bfBTC: 0x79636076e249dbFAF724D2974Abc610c69d83E39 (Proxy)
 
-~~**HEMI Testnet (Deprecated)**~~
-
-* ~~bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9~~
-
-**BASE Testnet**
+**BASE Sepolia**
 
 * bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9
 
