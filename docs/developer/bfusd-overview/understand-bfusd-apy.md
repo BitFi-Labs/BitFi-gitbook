@@ -45,9 +45,8 @@ $$
 \text{UserClaimableAmount} = \text{TotalRewards} \times \frac{\text{User'sTotalShareBalance}}{\text{All Users'TotalShareBalance}}
 $$
 
-Claimed tokens will be subject to vesting rules, requiring an unlock period with linear release over time. For detailed vesting schedules, please see the official campaign terms.
+Rewards will be distributed after the campaign ends.
 
----
 
 ## Boost APY
 
