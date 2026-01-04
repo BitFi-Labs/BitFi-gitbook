@@ -1,68 +1,41 @@
-# BitFi Docs (VitePress)
+---
+icon: bitcoin-sign
+cover: .gitbook/assets/BannerPic.png
+coverY: 0
+---
 
-This repo houses the BitFi documentation site built with VitePress. Author, preview, and publish the docs that power the BitFi handbook.
+# Welcome to BitFi
 
-## Quick start
+## BitFi Overview
 
-1) Install dependencies (Node 18+ recommended):
-```bash
-yarn install
-```
-2) Run the docs locally:
-```bash
-yarn dev
-```
-3) Build for production:
-```bash
-yarn build
-```
-4) Preview the built site:
-```bash
-yarn preview
-```
+**BitFi** is an on-chain asset management platform with over $480M in assets under management. We leverage a unique **CeDeFi** architecture to deliver institutional-grade native yields combined with DeFi returns, serving both institutions and individual investors.
 
-## Useful paths
+## Vision
 
-- `docs/`: all docs content. Entry point is `docs/index.md`.
-- `docs/.vitepress/config.ts`: site config, nav, theme settings.
-- `docs/.vitepress/theme/`: custom styles/components.
-- `docs/public/`: static assets served at the site root.
+BitFi aims to be the safest and most efficient CeDeFi yield platform, enabling every user to access stable, transparent, and diversified returns across markets.
 
-## Writing content
+## Core Advantages
 
-- Author pages in Markdown under `docs/`, keeping the existing folder structure (`background/`, `how-to/`, etc.).
-- Use relative asset paths (place images in `docs/public/` or alongside the page).
-- For math, `markdown-it-mathjax3` is available; wrap expressions with `$...$` or `$$...$$`.
-- Embed guides (Scribe/Tango) with a responsive wrapper so iframes scale on mobile:
-  ```md
-  <div style="position: relative; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; min-height: 480px;">
-    <iframe
-      src="https://scribehow.com/embed/...your_id..."
-      style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;"
-      allow="fullscreen"
-    ></iframe>
-  </div>
+* **CeDeFi Hybrid Yield:**\
+  Seamlessly integrate centralized finance (CeFi) and decentralized finance (DeFi) strategies to deliver consistent, high-quality yields.
+* **Institutional-Grade Infrastructure:**\
+  Built by a team with deep experience from both Wall Street and top DeFi protocols, BitFi bridges TradFi expertise with DeFi innovation.
+* **Comprehensive Product Suite:**
+  * **bfBTC:** Yield-bearing liquid staking token for BTC
+  * **bfUSD:** Yield-bearing stablecoin backed by USDC/USDT
+* **Proven Traction:**
+  * $480M+ in assets under management
+  * Over 20,000 retail users
+  * Native APR 6+%
+* **Robust Security:**\
+  Multi-layer risk management, audited smart contracts, and institutional-grade custody partners.
+* **Strong Backing:**\
+  Supported by **Fundamental Labs**, **CGV Fund**, **Hemi Labs**, **Citizen Journalists Network**, **IBC**, and other leading investors.
 
-  [Open in a new tab](https://scribehow.com/viewer/...){target="_blank" rel="noreferrer"}
-  ```
-  Tango embeds use the same wrapper; add their sandbox/referrerpolicy when required:
-  ```md
-  <iframe
-    src="https://app.tango.us/app/embed/...your_id..."
-    sandbox="allow-scripts allow-top-navigation-by-user-activation allow-popups allow-same-origin"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen="allowfullscreen"
-  ></iframe>
-  ```
+### bfBTC
 
-## Scripts
+bfBTC represents BitFi's native route for Bitcoin holders to unlock CeDeFi yields. The token is minted when BTC is bridged on-chain, then deployed into mirror trading, liquidity, and DeFi strategies coordinated by Ceffu's MirrorX engine. The resulting revenue—combined with protocol-level incentives—is distributed back to bfBTC holders, so the token's exchange ratio steadily grows while remaining redeemable 1:1 for native BTC across chains.
 
-- `yarn dev`: local dev server at `localhost:5173` (default VitePress port).
-- `yarn build`: generate static site in `docs/.vitepress/dist`.
-- `yarn preview`: serve the built output locally.
+### bfUSD
 
-## Contributing
-
-- Keep navigation and sidebar updates in `docs/.vitepress/config.ts` synchronized with new/renamed pages.
-- Prefer concise pages with clear frontmatter; add brief context comments in Markdown only when it aids readers.
-- Run `yarn build` before publishing to ensure the site renders without errors.
+bfUSD is a fully collateralized USD stablecoin minted from USDT and USDC with Chainlink-secured pricing. Holders can stake bfUSD into the low-risk Horizon pool (hbfUSD) or the higher-yield Pulsar pool (pbfUSD), each operating as ERC-4626 vaults with target APYs (9% for hbfUSD, 17% for pbfUSD). Yield stems from the pooled staking revenue, cross-pool insurance buffers, and boosted distributions from the Horizon pool, while redemption paths (standard and instant) preserve capital stability.
