@@ -48,6 +48,7 @@
   * [Deployed Contracts](developer/bfusd-overview/deployed-contracts.md)
   * [Contract Parameters](developer/bfusd-overview/contract-parameters.md)
   * [Contract ABI](developer/bfusd-overview/contract-abi.md)
+  * [Understand bfUSD APY](developer/bfusd-overview/understand-bfusd-apy.md)
 * [Using Contract](developer/using-contract/README.md)
   * [Stake bfBTC](developer/using-contract/stake-bfbtc.md)
   * [Unstake bfBTC](developer/using-contract/unstake-bfbtc.md)

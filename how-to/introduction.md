@@ -7,34 +7,11 @@ icon: piggy-bank
 
 Here you can find information on how to deposit, withdraw, and more on BitFi.
 
-{% content-ref url="how-to-participate-in-points-campaign.md" %}
-[how-to-participate-in-points-campaign.md](how-to-participate-in-points-campaign.md)
-{% endcontent-ref %}
-
-{% content-ref url="get-bfusd-and-stake-in-horizon-pulsar-pools.md" %}
-[get-bfusd-and-stake-in-horizon-pulsar-pools.md](get-bfusd-and-stake-in-horizon-pulsar-pools.md)
-{% endcontent-ref %}
-
-{% content-ref url="unstake-pbfusd-hbfusd-and-redeem-bfusd-to-usdt.md" %}
-[unstake-pbfusd-hbfusd-and-redeem-bfusd-to-usdt.md](unstake-pbfusd-hbfusd-and-redeem-bfusd-to-usdt.md)
-{% endcontent-ref %}
-
-{% content-ref url="stake-btc-on-an-evm-compatible-chain.md" %}
-[stake-btc-on-an-evm-compatible-chain.md](stake-btc-on-an-evm-compatible-chain.md)
-{% endcontent-ref %}
-
-{% content-ref url="stake-btc-on-bitcoin-network.md" %}
-[stake-btc-on-bitcoin-network.md](stake-btc-on-bitcoin-network.md)
-{% endcontent-ref %}
-
-{% content-ref url="unstake-bfbtc-to-evm-compatible-chain.md" %}
-[unstake-bfbtc-to-evm-compatible-chain.md](unstake-bfbtc-to-evm-compatible-chain.md)
-{% endcontent-ref %}
-
-{% content-ref url="unstake-bfbtc-to-bitcoin-network.md" %}
-[unstake-bfbtc-to-bitcoin-network.md](unstake-bfbtc-to-bitcoin-network.md)
-{% endcontent-ref %}
-
-{% content-ref url="create-sui-wallet.md" %}
-[create-sui-wallet.md](create-sui-wallet.md)
-{% endcontent-ref %}
+- [How to participate in Points Campaign](./how-to-participate-in-points-campaign.md)
+- [Get bfUSD and Stake in Horizon/Pulsar Pools](./get-bfusd-and-stake-in-horizon-pulsar-pools.md)
+- [Unstake pbfUSD/hbfUSD and Redeem bfUSD to USDT](./unstake-pbfusd-hbfusd-and-redeem-bfusd-to-usdt.md)
+- [Stake BTC on an EVM-Compatible Chain](./stake-btc-on-an-evm-compatible-chain.md)
+- [Stake BTC on Bitcoin Network](./stake-btc-on-bitcoin-network.md)
+- [Unstake bfBTC to EVM-Compatible Chain](./unstake-bfbtc-to-evm-compatible-chain.md)
+- [Unstake bfBTC to Bitcoin Network](./unstake-bfbtc-to-bitcoin-network.md)
+- [Create SUI Wallet](./create-sui-wallet.md)

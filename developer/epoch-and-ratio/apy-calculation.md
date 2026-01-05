@@ -34,7 +34,7 @@ A linearized, annualized rate based on the change in the bfBTC/BTC exchange rate
 
 
 
-### Formula&#x20;
+### Formula 
 
 $$
 \mathrm{APY}^{(7)}(N)

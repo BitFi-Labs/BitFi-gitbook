@@ -142,17 +142,17 @@ Below is an overview table of the current quests and their classifications:
 | Hold pbfUSD to earn the boost                      | bfUSD    | HODL     | ETH   |
 | Provide bfUSD Liquidity on Curve to earn the boost | bfUSD    | HODL     | ETH   |
 | Boost points on bfUSD                              | bfUSD    | Boost    | ETH   |
-| Hold bfBTC                                         | bfBTC    | HODL     | All   |
-| Stake bfBTC on YieldNest                           | bfBTC    | HODL     | BSC   |
-| Stake bfBTC on Cygnus                              | bfBTC    | HODL     | BTR   |
-| Stake bfBTC on RollX                               | bfBTC    | HODL     | BASE  |
-| Stake bfBTC on DeSyn                               | bfBTC    | HODL     | BTR   |
-| Stake bfBTC on Turtle Club TAC (ETH)               | bfBTC    | HODL     | ETH   |
+| Hold bfBTC (Ended)                                 | bfBTC    | HODL     | All   |
+| Stake bfBTC on YieldNest (Ended)                   | bfBTC    | HODL     | BSC   |
+| Stake bfBTC on Cygnus (Ended)                      | bfBTC    | HODL     | BTR   |
+| Stake bfBTC on RollX (Ended)                       | bfBTC    | HODL     | BASE  |
+| Stake bfBTC on DeSyn (Ended)                       | bfBTC    | HODL     | BTR   |
+| Stake bfBTC on Turtle Club TAC (ETH) (Ended)       | bfBTC    | HODL     | ETH   |
 | Hold bfBTC-YT on Spectra-Oct.(Ended)               | bfBTC    | HODL     | HEMI  |
 | Hold bfBTC-PT on Spectra-Sep.(Ended)               | bfBTC    | HODL     | HEMI  |
 | Hold bfBTC-YT on Spectra-Sep.(Ended)               | bfBTC    | HODL     | HEMI  |
 | Provide bfBTC-LP on Spectra-Sep.(Ended)            | bfBTC    | HODL     | HEMI  |
 | Galxe HODL (Ended)                                 | bfBTC    | HODL     | All   |
 | Galxe Social Quests (Ended)                        | Social   | Social   | All   |
-| Meme Contest                                       | bfBTC    | Other    | All   |
-| Ambassador Rewards                                 | bfBTC    | Other    | All   |
+| Meme Contest (Ended)                               | bfBTC    | Other    | All   |
+| Ambassador Rewards (Ended)                         | bfBTC    | Other    | All   |

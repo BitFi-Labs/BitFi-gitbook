@@ -7,7 +7,7 @@ Epoch updates are triggered when:
 * The value of open positions changes beyond a predefined threshold.
 * A specified time interval elapses.
 
-Upon meeting these conditions, the manager triggers an epoch update. The management wallet updates the contract to the next epoch and updates the exchange ratio (`Ratio`).&#x20;
+Upon meeting these conditions, the manager triggers an epoch update. The management wallet updates the contract to the next epoch and updates the exchange ratio (`Ratio`). 
 
 After the update, all deposit and withdrawal transactions use the latest epoch's value to calculate bfBTC amounts.
 

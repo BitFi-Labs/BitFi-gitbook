@@ -1,8 +1,6 @@
 # bfBTC Fees
 
-{% hint style="warning" %}
-Note: fees only be taken while `requestWithdraw` , `requestWithdrawNative`, and cross-chain actions.
-{% endhint %}
+> **Note:** Fees are only taken during `requestWithdraw`, `requestWithdrawNative`, and cross-chain actions.
 
 ## Fee Types
 
@@ -16,7 +14,7 @@ uint8 private constant FEE_TYPE_CROSSCHAIN = 2; // For cross-chain operations
 
 ## Fee Parameters
 
-1. **Withdraws:**&#x20;
+1. **Withdraws:** 
 
 * Percentage Fee
   * Fee rate = 0
@@ -81,7 +79,7 @@ Calculate fees for a specific operation based on user address and amount.
 **Calculation Formula:**
 
 $$
-\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE_PRECISION}}
+\text{percentageFee} = \text{amount} \times \frac{\text{percentageFeeConfig}}{\text{FEE\_PRECISION}}
 $$
 
 $$
@@ -118,4 +116,3 @@ event FeeCollected(
 * Fee events provide tracking and auditing capabilities
 * Whitelist mechanism allows for special cases and promotions
 * Fee configuration can be updated based on market conditions
-

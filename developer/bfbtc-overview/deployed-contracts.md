@@ -30,33 +30,26 @@
 
 * bfBTC：0x623F2774d9f27B59bc6b954544487532CE79d9DF
 
+**TAC:**
+
+* bfBTC：0x623F2774d9f27B59bc6b954544487532CE79d9DF
+
 
 
 ## **Contract Addresses (Testnet):**
 
-{% hint style="danger" %}
-**Warning:** Assets on testnets have no real value.&#x20;
-{% endhint %}
+> **Warning:** Assets on testnets have no real value.
 
 **Ethereum Sepolia**
 
 * bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9 (Proxy)
 * WBTC Test Token: 0x05710e96a48AF222b564e6A222fF2f3d56725c32
 
-**Binance Smart Chain Testnet**
-
-* bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9 (Proxy)
-* BTCB Test Token: 0x05710e96a48AF222b564e6A222fF2f3d56725c32
-
 **Bitlayer Testnet**
 
 * bfBTC: 0x79636076e249dbFAF724D2974Abc610c69d83E39 (Proxy)
 
-~~**HEMI Testnet (Deprecated)**~~
-
-* ~~bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9~~
-
-**BASE Testnet**
+**BASE Sepolia**
 
 * bfBTC: 0xbcfB9D5f0b057cA5867970AdbB244917555466a9
 
@@ -89,5 +82,4 @@
 * Protocol stability and security validation.
 * Community feedback collection.
 
-For the latest updates and contract addresses, refer to BitFi's developer community and social media channels.\
-\
+For the latest updates and contract addresses, refer to BitFi's developer community and social media channels.

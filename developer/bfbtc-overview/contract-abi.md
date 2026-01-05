@@ -9,13 +9,13 @@ The ABI of bfBTC contracts can be categorized into two types, with slight differ
 
 1. Contracts that use ERC20 assets as underlying assets
 
-{% file src="../../.gitbook/assets/bfBTC-contract-ABI-erc20.json" %}
+[Download ERC20 ABI (JSON)](../../.gitbook/assets/bfbtc-contract-abi-erc20.json)
 
 
 
 2. Contracts that use Gas Tokens as underlying assets (Only on Bitlayer)
 
-{% file src="../../.gitbook/assets/bfBTC-contract-ABI-gasToken (1).json" %}
+[Download Gas Token ABI (JSON)](../../.gitbook/assets/bfbtc-contract-abi-gastoken.json)
 
 
 

@@ -4,6 +4,10 @@ icon: location-pin
 
 # Overview
 
+::: warning bfBTC Points Ended
+bfBTC points quests ended on 12/31/2025 (US Eastern Time). You will no longer earn bfBTC points going forward.
+:::
+
 The BitFi Points Program is now live.  
 You can earn points through:
 - Holding bfBTC, bfUSD, and related assets (such as hbfUSD, pbfUSD, and bfUSD liquidity LP tokens)
@@ -90,4 +94,3 @@ Visit the Points page to view all quests and your points history:
 - **Other Quests and Limits**  
   Social quests, ecosystem partner quests, and other campaign-based quests grant points according to their specific rules.  
   The exact values, caps, and timing of point distributions are always defined by the Points page and official announcements.
-

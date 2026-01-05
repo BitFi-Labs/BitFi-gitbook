@@ -38,4 +38,4 @@ bfBTC represents BitFi's native route for Bitcoin holders to unlock CeDeFi yield
 
 ### bfUSD
 
-bfUSD is a fully collateralized USD stablecoin minted from USDT and USDC with Chainlink-secured pricing. Holders can stake bfUSD into the low-risk Horizon pool (hbfUSD) or the higher-yield Pulsar pool (pbfUSD), each operating as ERC-4626 vaults with target APYs (15% for hbfUSD, 22% for pbfUSD). Yield stems from the pooled staking revenue, cross-pool insurance buffers, and boosted distributions from the Horizon pool, while redemption paths (standard and instant) preserve capital stability.
+bfUSD is a fully collateralized USD stablecoin minted from USDT and USDC with Chainlink-secured pricing. Holders can stake bfUSD into the low-risk Horizon pool (hbfUSD) or the higher-yield Pulsar pool (pbfUSD), each operating as ERC-4626 vaults with target APYs (9% for hbfUSD, 17% for pbfUSD). Yield stems from the pooled staking revenue, cross-pool insurance buffers, and boosted distributions from the Horizon pool, while redemption paths (standard and instant) preserve capital stability.

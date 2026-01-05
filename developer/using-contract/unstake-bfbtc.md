@@ -1,8 +1,6 @@
 # Unstake bfBTC
 
-{% hint style="warning" %}
-Currently, we support **RedStone** Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
-{% endhint %}
+> **Warning:** We currently support RedStone Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
 
 ***
 
@@ -25,7 +23,7 @@ function previewWithdraw(uint256 share, bool native) public view returns (uint25
   * `share`: The amount of bfBTC you intend to withdraw (8 decimals).
   * `native`: A boolean indicating the withdrawal destination.
     * `true` for the native Bitcoin network;
-    * `false` for an EVM network.&#x20;
+    * `false` for an EVM network. 
     * On the Bitlayer contract, this parameter is currently unused.
 * Returns:
   * `underlyingAmount`: The estimated net amount of the underlying asset you will receive after fees.

@@ -10,7 +10,7 @@ bfBTC is BitFi's cross-chain Bitcoin liquidity staking solution, allowing users 
 
 **Technical Foundation**
 
-bfBTC is built on an enhanced ERC-20 standard (supporting cross-chain transactions through LayerZero OFT standard) and functions as a multichain Bitcoin-backed token.&#x20;
+bfBTC is built on an enhanced ERC-20 standard (supporting cross-chain transactions through LayerZero OFT standard) and functions as a multichain Bitcoin-backed token. 
 
 **Key Advantages**
 
@@ -46,16 +46,14 @@ bfBTC establishes a trust-minimized bridge for Bitcoin to participate in multich
 * Bitlayer Testnet
 * ~~Hemi Sepolia (Testnet) : Deprecated~~
 * Base Sepolia (Testnet)
-* Core Testnet2&#x20;
+* Core Testnet2 
 * Goat Testnet
 
 
 
 ## BFBTC on AILayer
 
-{% hint style="warning" %}
-**AILayer's BFBTC has not yet activated quantitative strategies** and currently functions solely as a 1:1 wrapped Bitcoin with no yield mechanisms implemented.
-{% endhint %}
+> **Heads up:** AILayer's BFBTC has not yet activated quantitative strategies and currently functions solely as a 1:1 wrapped Bitcoin with no yield mechanisms implemented.
 
 **Overview**
 
@@ -63,9 +61,8 @@ BFBTC (BitFi BTC) is a wrapped Bitcoin token designed to facilitate on-chain tra
 
 
 
-**Securely Bridging Bitcoin to the Future of Multichain Finance**&#x20;
+**Securely Bridging Bitcoin to the Future of Multichain Finance** 
 
-Unlock the true potential of Bitcoin within the decentralized finance (DeFi) ecosystem. BFBTC enables secure, seamless transactions across multiple blockchain networks, providing a fully-backed solution for users.&#x20;
-
+Unlock the true potential of Bitcoin within the decentralized finance (DeFi) ecosystem. BFBTC enables secure, seamless transactions across multiple blockchain networks, providing a fully-backed solution for users. 
 
 

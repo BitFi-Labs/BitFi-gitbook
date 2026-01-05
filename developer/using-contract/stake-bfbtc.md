@@ -1,8 +1,6 @@
 # Stake bfBTC
 
-{% hint style="warning" %}
-Currently, we support **RedStone** Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
-{% endhint %}
+> **Warning:** We currently support RedStone Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
 
 ***
 
@@ -63,7 +61,7 @@ This view function estimates the amount of bfBTC you will receive for a specifie
 function previewDeposit(uint256 amount) public view returns (uint256)
 ```
 
-* Description: This function previews the amount of bfBTC tokens you will receive for a specified deposit amount of Bitlayer's native BTC.&#x20;
+* Description: This function previews the amount of bfBTC tokens you will receive for a specified deposit amount of Bitlayer's native BTC. 
 * Parameters:
   * `amount`: The expected deposit amount of Bitlayer BTC (with 18 decimals).
 * Returns:
@@ -120,4 +118,3 @@ function depositNative(
   4. Each native transaction hash can only be processed once to prevent double-spending.
 * Security measures prevent double-processing
 * Pausable functionality available for emergencies
-

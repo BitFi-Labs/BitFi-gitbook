@@ -1,12 +1,8 @@
 # Underlying Bitcoin Asset Price Variation
 
-{% hint style="warning" %}
-Currently, we support **RedStone** Oracle for underlying asset price feeds. BitFi plans to integrate more underlying asset oracles in the future.
-{% endhint %}
+> **Warning:** We currently support RedStone Oracle for underlying asset price feeds. BitFi plans to integrate more underlying asset oracles in the future.
 
-{% hint style="danger" %}
-Due to the requirements of quantitative strategies, bfBTC currently does not support WBTC as a deposit asset. Therefore, the content of this section is not applicable at the moment and is for reference only.
-{% endhint %}
+> **Note:** Due to the requirements of quantitative strategies, bfBTC currently does not support WBTC as a deposit asset. The following content is for reference only.
 
 Different underlying assets are used for deposits on different chains:
 

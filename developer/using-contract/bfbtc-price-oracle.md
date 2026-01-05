@@ -1,8 +1,6 @@
 # bfBTC Price Oracle
 
-{% hint style="warning" %}
-Currently, we support **RedStone** Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
-{% endhint %}
+> **Warning:** We currently support RedStone Oracle for price feeds. BitFi plans to integrate more underlying asset oracles in the future.
 
 RedStone Oracle now provides price feeds for **bfBTC**. You can find the pricing page and contract details below:
 

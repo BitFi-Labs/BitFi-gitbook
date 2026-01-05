@@ -4,7 +4,7 @@
 
 ## **Explore the bfBTC Ecosystem**
 
-<figure><img src="../../.gitbook/assets/Frame 2131333908.png" alt=""><figcaption></figcaption></figure>
+![bfBTC ecosystem map](../../.gitbook/assets/bfbtc-frame.png)
 
 ### Using bfBTC in DeFi
 

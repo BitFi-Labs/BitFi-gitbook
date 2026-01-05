@@ -11,6 +11,6 @@ We apply the same risk-aware mindset to our USD products: Horizon (hbfUSD) follo
 
 * **Delta-Neutral Hedging:** A core component of our strategy involves creating a delta-neutral portfolio by precisely matching long positions in Bitcoin-correlated assets with short positions in derivative contracts (e.g., perpetual swaps, futures). This dynamic hedging minimizes exposure to market volatility.
 * **Yield Generation:** While delta-neutral hedging mitigates price risk, BitFi generates yield through:
-  * **Funding Rates:** Capitalizing on positive funding rates from perpetual swap contracts.&#x20;
-  * **Basis Spreads:** Exploiting favorable discrepancies between spot and derivative market prices.&#x20;
+  * **Funding Rates:** Capitalizing on positive funding rates from perpetual swap contracts. 
+  * **Basis Spreads:** Exploiting favorable discrepancies between spot and derivative market prices. 
   * **Staking Rewards (where applicable):** Integrating staking rewards from underlying assets.

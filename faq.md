@@ -98,19 +98,15 @@ For bfUSD, unstaking from Horizon or Pulsar back to bfUSD does not incur protoco
 
 ## What are BitFi Points?
 
-BitFi Points are the reward points of BitFi's points program. Users can participate in various activities to earn points at [https://app.bitfi.one/points-program](https://app.bitfi.one/points-program). Based on the number of points earned, BitFi Tokens will be airdropped in the future. You can earn points by inviting others to join with your referral code and hold bfBTC, by holding bfBTC yourself, or by participating in ecosystem projects.
+BitFi Points are reward points from the BitFi Points Program: [https://app.bitfi.one/points-program](https://app.bitfi.one/points-program).
+
+1. You can earn points from bfUSD and bfBTC quests (referrals, holding tokens, etc.).
+2. *Note: bfBTC points quests ended on 12/31/2025 (US Eastern Time).*
 
 
 
 ## What is APY?
 
-BitFi reports two APY metrics: a 7‑epoch rolling APY and a cumulative APY since genesis. The former reflects short‑term performance, while the latter captures long‑term performance. For details, please refer to this article:&#x20;
+BitFi reports two APY metrics: a 7‑epoch rolling APY and a cumulative APY since genesis. The former reflects short‑term performance, while the latter captures long‑term performance. For details, please refer to this article: 
 
-{% content-ref url="developer/epoch-and-ratio/apy-calculation.md" %}
-[apy-calculation.md](developer/epoch-and-ratio/apy-calculation.md)
-{% endcontent-ref %}
-
-
-
-
-
+See: [APY Calculation](developer/epoch-and-ratio/apy-calculation.md).
